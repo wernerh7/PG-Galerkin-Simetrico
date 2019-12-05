@@ -1,0 +1,446 @@
+/////////////////
+Mesh 1: 4686 triangles
+/////////////////
+
+Without using ACA
+time to assembly matrices blocks: 13.298121452331543
+time to solve linear system: 0.9752984046936035
+total time: 14.273419857025146
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+______________________________
+Using ACA Varying block size
+_____________________________
+
+Maximum rank: 20
+Maximum block size: 2048
+Number of threads: 1
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 29.56498694419861
+time to solve linear system: 8.905752897262573
+total time: 38.47073984146118
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum block size: 1024
+Number of threads: 1
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 29.67298913002014
+time to solve linear system: 8.960145711898804
+total time: 38.633134841918945
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum block size: 512
+Number of threads: 1
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 30.582639694213867
+time to solve linear system: 9.28739595413208
+total time: 39.87003564834595
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum block size: 256
+Number of threads: 1
+memory to slp_DD: 2196.0
+memory to slp_DN: 9903.0
+time to assembly matrices blocks: 32.95133924484253
+time to solve linear system: 10.322800636291504
+total time: 43.27413988113403
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum block size: 128
+Number of threads: 1
+memory to slp_DD: 2196.0
+memory to slp_DN: 10314.0
+time to assembly matrices blocks: 38.92546725273132
+time to solve linear system: 11.671163082122803
+total time: 50.596630334854126
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum rank: 64
+Number of threads: 1
+memory to slp_DD: 2172.0
+memory to slp_DN: 11056.0
+time to assembly matrices blocks: 54.50352096557617
+time to solve linear system: 17.418251276016235
+total time: 71.92177224159241
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+_________________________________
+Variando number of threads
+__________________________________
+Maximum rank: 20
+Maximum block size: 2048
+Number of threads: 2
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 29.562564373016357
+time to solve linear system: 8.875537395477295
+total time: 38.43810176849365
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum block size: 2048
+Number of threads: 3
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 30.428211450576782
+time to solve linear system: 8.939695119857788
+total time: 39.36790657043457
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum block size: 2048
+Number of threads: 4
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 29.509061574935913
+time to solve linear system: 8.867871522903442
+total time: 38.376933097839355
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum block size: 2048
+Number of threads: 5
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 29.50506043434143
+time to solve linear system: 8.860799789428711
+total time: 38.36586022377014
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum block size: 2048
+Number of threads: 6
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 29.53783416748047
+time to solve linear system: 8.867027044296265
+total time: 38.40486121177673
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum block size: 2048
+Number of threads: 7
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 29.5730459690094
+time to solve linear system: 8.862738847732544
+total time: 38.43578481674194
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum block size: 2048
+Number of threads: 8
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 29.467277765274048
+time to solve linear system: 8.87729549407959
+total time: 38.34457325935364
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 20
+Maximum block size: 2048
+Number of threads: 9
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 29.46722960472107
+time to solve linear system: 8.866865873336792
+total time: 38.33409547805786
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+
+______________________
+varying the maximum rank
+______________________
+
+Maximum rank: 10
+Maximum block size: 2048
+Number of threads: 1
+memory to slp_DD: 1960.0
+memory to slp_DN: 9391.0
+time to assembly matrices blocks: 26.984928846359253
+time to solve linear system: 8.492775201797485
+total time: 35.47770404815674
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 30
+Maximum block size: 2048
+Number of threads: 1
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 30.01222062110901
+time to solve linear system: 9.149645805358887
+total time: 39.161866426467896
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 40
+Maximum block size: 2048
+Number of threads: 1
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 29.924455881118774
+time to solve linear system: 9.40468978881836
+total time: 39.329145669937134
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 80
+Maximum block size: 2048
+Number of threads: 1
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 30.159987688064575
+time to solve linear system: 9.397449016571045
+total time: 39.55743670463562
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 160
+Maximum block size: 2048
+Number of threads: 1
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 30.206686973571777
+time to solve linear system: 9.315333604812622
+total time: 39.5220205783844
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+Maximum rank: 320
+Maximum block size: 2048
+Number of threads: 1
+memory to slp_DD: 2196.0
+memory to slp_DN: 9802.0
+time to assembly matrices blocks: 30.270145416259766
+time to solve linear system: 9.205172061920166
+total time: 39.47531747817993
+Number of elements 4686
+Number of global Neumann dofs: 4686
+Number of global Dirichlet dofs: 2331
+Number of unknown dofs: 2737
+
+
+//////////////////////////////////
+Mesh 2: 18744 triangles
+//////////////////////////////////
+Without using ACA
+
+time to assembly matrices blocks: 144.56546425819397
+time to solve linear system: 21.41312527656555
+total time: 165.97858953475952
+Number of elements 18744
+Number of global Neumann dofs: 18744
+Number of global Dirichlet dofs: 9360
+Number of unknown dofs: 11135
+
+------------------------------
+Using ACA Varying number of threads
+-----------------------------
+
+Maximum rank: 30
+Maximum block size: 2048
+Number of threads: 1
+memory to slp_DD: 14204.0
+memory to slp_DN: 52932.0
+time to assembly matrices blocks: 131.64632368087769
+time to solve linear system: 61.65463209152222
+total time: 193.3009557723999
+Number of elements 18744
+Number of global Neumann dofs: 18744
+Number of global Dirichlet dofs: 9360
+Number of unknown dofs: 11135
+
+Maximum rank: 30
+Maximum block size: 2048
+Number of threads: 2
+memory to slp_DD: 14204.0
+memory to slp_DN: 52932.0
+time to assembly matrices blocks: 129.73927068710327
+time to solve linear system: 62.419087409973145
+total time: 192.15835809707642
+Number of elements 18744
+Number of global Neumann dofs: 18744
+Number of global Dirichlet dofs: 9360
+Number of unknown dofs: 11135
+
+
+Maximum rank: 30
+Maximum block size: 2048
+Number of threads: 4
+memory to slp_DD: 14204.0
+memory to slp_DN: 52932.0
+time to assembly matrices blocks: 129.48483872413635
+time to solve linear system: 62.29572153091431
+total time: 191.78056025505066
+Number of elements 18744
+Number of global Neumann dofs: 18744
+Number of global Dirichlet dofs: 9360
+Number of unknown dofs: 11135
+
+Maximum rank: 30
+Maximum block size: 2048
+Number of threads: 8
+memory to slp_DD: 14204.0
+memory to slp_DN: 52932.0
+time to assembly matrices blocks: 129.55156254768372
+time to solve linear system: 62.533007860183716
+total time: 192.08457040786743
+Number of elements 18744
+Number of global Neumann dofs: 18744
+Number of global Dirichlet dofs: 9360
+Number of unknown dofs: 11135
+
+______________________________
+Varying maximum rank
+_________________________________
+
+Maximum rank: 5
+Maximum block size: 2048
+Number of threads: 1
+memory to slp_DD: 10669.0
+memory to slp_DN: 42855.0
+time to assembly matrices blocks: 85.77464318275452
+time to solve linear system: 35.25751829147339
+total time: 121.0321614742279
+Number of elements 18744
+Number of global Neumann dofs: 18744
+Number of global Dirichlet dofs: 9360
+Number of unknown dofs: 11135
+
+
+
+Maximum rank: 10
+Maximum block size: 2048
+Number of threads: 1
+memory to slp_DD: 12708.0
+memory to slp_DN: 49802.0
+time to assembly matrices blocks: 112.97853016853333
+time to solve linear system: 53.89601397514343
+total time: 166.87454414367676
+Number of elements 18744
+Number of global Neumann dofs: 18744
+Number of global Dirichlet dofs: 9360
+Number of unknown dofs: 11135
+
+
+Maximum rank: 30
+Maximum block size: 2048
+Number of threads: 1
+memory to slp_DD: 14204.0
+memory to slp_DN: 52932.0
+time to assembly matrices blocks: 131.57540655136108
+time to solve linear system: 64.36805367469788
+total time: 195.94346022605896
+Number of elements 18744
+Number of global Neumann dofs: 18744
+Number of global Dirichlet dofs: 9360
+Number of unknown dofs: 11135
+
+_____________________________________________________
+Varying the number of block size
+________________________________________________________
+Maximum rank: 30
+Maximum block size: 256
+Number of threads: 1
+memory to slp_DD: 14111.0
+memory to slp_DN: 63532.0
+time to assembly matrices blocks: 206.56383299827576
+time to solve linear system: 90.82855868339539
+total time: 297.39239168167114
+Number of elements 18744
+Number of global Neumann dofs: 18744
+Number of global Dirichlet dofs: 9360
+Number of unknown dofs: 11135
+
+
+Maximum rank: 30
+Maximum block size: 4096
+Number of threads: 1
+memory to slp_DD: 14204.0
+memory to slp_DN: 52932.0
+time to assembly matrices blocks: 128.94139790534973
+time to solve linear system: 62.23513340950012
+total time: 191.17653131484985
+Number of elements 18744
+Number of global Neumann dofs: 18744
+Number of global Dirichlet dofs: 9360
+Number of unknown dofs: 11135
+
+Maximum rank: 30
+Maximum block size: 8192
+Number of threads: 1
+memory to slp_DD: 14204.0
+memory to slp_DN: 52932.0
+time to assembly matrices blocks: 127.00263929367065
+time to solve linear system: 61.113882303237915
+total time: 188.11652159690857
+Number of elements 18744
+Number of global Neumann dofs: 18744
+Number of global Dirichlet dofs: 9360
+Number of unknown dofs: 11135
+
+
